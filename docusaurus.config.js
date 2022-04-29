@@ -11,7 +11,7 @@ const config = {
   ],
   title: 'Infrastructure as code',
   tagline: 'workshop',
-  url: 'https://xxx.ikdoeict.be',
+  url: 'https://ikdoeict.gitlab.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
