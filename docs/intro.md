@@ -2,18 +2,19 @@
 id: docs-intro
 title: Inleiding
 sidebar_position: 0
+slug: /
 ---
 
 Inleiding
 ==============
 
 Bedoeling van de workshop
---------------
+---------------------------
 
 
 
 Vereiste voorkennis
------------
+-------------------
 
 
 
