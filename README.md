@@ -14,7 +14,7 @@ Wij nemen inspiratie van het vak Data Security & de picoCTF website ervan.
 
 # Teamleden
 Ons team bestaat uit:
-Alexander
-Arne
-Dylan
-Toluwani
+- Alexander
+- Arne
+- Dylan
+- Toluwani
