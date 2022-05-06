@@ -28,7 +28,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: '/docenten/2122_infrastructure_as_code/iac_projecten-git/iac-project-git-team8',
+          editUrl: 'https://gitlab.com/ikdoeict/docenten/2122_infrastructure_as_code/iac-projecten-git/iac-project-git-team8/',
         },
         
         theme: {
