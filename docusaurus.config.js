@@ -25,7 +25,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/docenten/2122_infrastructure_as_code/iac-projecten-git/iac-project-git-team8/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://gitlab.com/ikdoeict/docenten/2122_infrastructure_as_code/iac-projecten-git/iac-project-git-team8/',
