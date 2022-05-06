@@ -12,7 +12,7 @@ const config = {
   title: 'Infrastructure as code',
   tagline: 'workshop',
   url: 'https://ikdoeict.gitlab.io',
-  baseUrl: '/',
+  baseUrl: '/docenten/2122_infrastructure_as_code/iac-projecten-git/iac-project-git-team8/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/ikdoeict.png',
@@ -25,7 +25,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/docenten/2122_infrastructure_as_code/iac-projecten-git/iac-project-git-team8/',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://gitlab.com/ikdoeict/docenten/2122_infrastructure_as_code/iac-projecten-git/iac-project-git-team8/',
