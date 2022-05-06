@@ -1,6 +1,6 @@
 # labs
 
-Deze repo bevat de template voor het git-project bij het vak Infrastructure as code. 
+Deze  repo bevat de template voor het git-project bij het vak Infrastructure as code. 
 
 De site is gebouwd op basis van Docusaurus 2 (beta). 
  
