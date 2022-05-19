@@ -38,10 +38,10 @@ module.exports = {
     // },
 
     {
-      'GREP': ['grepWorkshop','grep-SecondPage'],
+      'GREP': ['grepWorkshop','docs-intro','docs-grepOefening','docs-grepForensics'],
     },
     //docs\grepSecondPage
-
+    //strings picoctf.pcapng | grep "picoCTF"
     // Shorthand syntax:
     //'testPage', // document ID
   ],
