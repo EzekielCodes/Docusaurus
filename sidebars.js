@@ -28,4 +28,21 @@ const sidebars = {
    */
 };
 
-module.exports = sidebars;
+module.exports = {
+  mySidebar: [
+    // Normal syntax:
+    // {
+    //   type: 'doc',
+    //   id: 'grepWorkshop', // document ID
+    //   label: 'Getting started', // sidebar label
+    // },
+
+    {
+      'GREP': ['grepWorkshop','grep-SecondPage'],
+    },
+    //docs\grepSecondPage
+
+    // Shorthand syntax:
+    //'testPage', // document ID
+  ],
+};
