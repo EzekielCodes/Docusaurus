@@ -30,8 +30,14 @@ TIP:
 </details>
 <details>
     <summary>More TIps</summary>
-    <p>Zet een filter die uw alleen icmp request toont :))</p>
+    <p>Zet een filter die uw alleen icmp request toont en controleer de packet bytes van elke request die van 10.10.10.10 komt:))</p>
 </details>
+
+<details>
+    <summary>Nog een andere oplossing Met wireshark</summary>
+    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensotive unchecked. In search string zet "picoCTF" en Klik op find</p>
+</details>
+
 
 ### Oplossing Met Grep
 > :warning: **Het oplossing staat hieronder. Probeer het zelf eerst te cracking**: 

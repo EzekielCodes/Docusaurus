@@ -10,4 +10,13 @@ Grep is een essentieel Linux- en Unix-commando. Het wordt gebruikt om tekst en t
 
 
 
+## Requirements
+Om deze workshop uit te voeren heb je enkele dingen nodig:
+
+* Kali linux
+* Wireshark
+* Grep
+
+
+
 
