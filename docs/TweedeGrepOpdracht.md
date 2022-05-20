@@ -35,7 +35,7 @@ TIP:
 
 <details>
     <summary>Nog een andere oplossing Met wireshark</summary>
-    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensotive unchecked. In search string zet "picoCTF" en Klik op find</p>
+    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensotive unchecked. In search string zet "picoCTF" en Klik op find </p>
 </details>
 
 
@@ -47,5 +47,5 @@ TIP:
   <p>strings Network-dump.pcapng | grep "picoCTF"</p>
 </details>
 
-| WARNING: be careful to baz the quux before initializing the retro encabulator! |
+| WARNING: Spoiler! |
 | --- |
