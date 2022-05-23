@@ -29,7 +29,7 @@ TIP:
     <p>Het is ook mogelijk om virus te krijgen via een ping request :))</p>
 </details>
 <details>
-    <summary>More TIps</summary>
+    <summary>More Tips</summary>
     <p>Zet een filter die uw alleen icmp request toont en controleer de packet bytes van elke request die van 10.10.10.10 komt:))</p>
 </details>
 
