@@ -29,13 +29,13 @@ TIP:
     <p>Het is ook mogelijk om virus te krijgen via een ping request :))</p>
 </details>
 <details>
-    <summary>More TIps</summary>
+    <summary>More Tips</summary>
     <p>Zet een filter die uw alleen icmp request toont en controleer de packet bytes van elke request die van 10.10.10.10 komt:))</p>
 </details>
 
 <details>
     <summary>Nog een andere oplossing Met wireshark</summary>
-    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensotive unchecked. In search string zet "picoCTF" en Klik op find</p>
+    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensotive unchecked. In search string zet "picoCTF" en Klik op find </p>
 </details>
 
 
@@ -47,5 +47,5 @@ TIP:
   <p>strings Network-dump.pcapng | grep "picoCTF"</p>
 </details>
 
-| WARNING: be careful to baz the quux before initializing the retro encabulator! |
+| WARNING: Spoiler! |
 | --- |
