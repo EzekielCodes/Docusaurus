@@ -2,6 +2,7 @@
 id: docs-grepForensics
 title: Opdracht
 description: Oefening GREP
+sidebar_position: 4
 hide_table_of_contents: true
 ---
 

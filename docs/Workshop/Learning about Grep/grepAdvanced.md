@@ -2,6 +2,7 @@
 id: docs-grepAdvanced
 title: Advanced Operations
 description: Oefening GREP
+sidebar_position: 3
 hide_table_of_contents: true
 ---
 
