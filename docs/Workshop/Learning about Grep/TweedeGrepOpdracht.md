@@ -10,7 +10,7 @@ hide_table_of_contents: true
 Er staat hier onder een network dump file en hierin staat een picoCTF flag het is de bedoeling dat jullie het flag vinden met de hulp van de GREP command(picoCTF{}).
 Er zijn inderdaad verschillende manieren om het flag te vinden. Kan ook met wireshark(Wireshark is een network analysis tool)
 
-[Download Network dump file](././assets/Network-dump.pcapng)
+[Download Network dump file](iac-project-git-team8/docs/assets/Network-dump.pcapng)
 
 
 ## Wireshark
