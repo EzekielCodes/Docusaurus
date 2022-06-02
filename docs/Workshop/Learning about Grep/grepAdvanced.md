@@ -7,12 +7,11 @@ hide_table_of_contents: true
 ---
 
 ## Grep OR Operation (|)
-Pipe-teken (|) in grep wordt gebruikt om aan te geven dat een van de twee hele subexpressies in een positie voorkomt. "subexpression1|subexpression2" komt overeen met subexpression1 of subexpression2.
+Het pipe-teken (|) in grep wordt gebruikt om aan te geven dat één van de twee hele subexpressies in een positie voorkomt. "subexpression1|subexpression2" komt overeen met subexpression1 of subexpression2.
 
 In het volgende voorbeeld worden drie verschillende soorten commentaarregels in een bestand verwijderd met OR in een grep-opdracht.
 
 ```js
-
 echo "Dit bestand toont het commentaarteken in verschillende programmeer-/scripttalen 
 ### Perl / shell-scripting 
 Als de regel begint met een enkel hash-symbool, 
@@ -54,7 +53,6 @@ De opdracht Grep ondersteunt enkele speciale tekenklassen die bepaalde gemeensch
 [:alnum:] Elk alfanumeriek teken 0 tot 9 OF A tot Z of a tot z. 
 [:alpha:] Elk alfateken A tot Z of a tot z. 
 [:blank:] Alleen spatie- en TAB-tekens.
-
 ```
 
 Deze worden altijd tussen vierkante haken gebruikt in de vorm [[:digit:]]. Laten we nu alle proces-ID's van het ntpd-daemonproces gebruiken met behulp van de juiste tekenklasse-expressie.
@@ -117,11 +115,9 @@ grep "[0-9]\{5,\}" nummer.txt
 # OUTPUT
 
 ```js
-
 12345 
 123456 
 19816282
-
 ```
 
 
