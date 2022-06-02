@@ -12,12 +12,15 @@ Grep is een essentieel Linux- en Unix-commando. Het wordt gebruikt om tekst en t
 
 
 ## Requirements
-Om deze workshop uit te voeren heb je enkele dingen nodig:
+Om dit deel van de workshop uit te voeren heb je volgende zaken nodig.
 
 * Kali linux
 * Wireshark
 * Grep
 
+:::tip
+Zoek op hoe je kali linux kan installeren op een vm
+:::
 
 
 
