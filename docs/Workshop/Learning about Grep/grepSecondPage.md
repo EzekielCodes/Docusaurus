@@ -1,6 +1,6 @@
 ---
 id: docs-grepOefening
-title: Oefening
+title: Voorbeeld oefening
 description: Oefening GREP
 sidebar_position: 2
 hide_table_of_contents: true

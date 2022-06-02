@@ -1,6 +1,6 @@
 ---
 id: docs-grepForensicsDerde
-title: Derde Opdracht
+title: Opdracht 3
 description: Oefening GREP
 sidebar_position: 6
 hide_table_of_contents: true
