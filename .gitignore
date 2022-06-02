@@ -22,3 +22,5 @@ node_modules
 
 .devcontainer
 interesting.txt
+yarn.lock
+package.json
