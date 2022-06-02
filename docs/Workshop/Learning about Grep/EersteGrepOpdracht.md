@@ -21,8 +21,7 @@ TIP:
   <p>strings network-dump.flag.pcap | grep "p i c o" | tr -d " "</p>
 </details>
 
-| WARNING: be careful to baz the quux before initializing the retro encabulator! |
-| --- |
+
 
 
 

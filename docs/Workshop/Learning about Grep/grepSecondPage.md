@@ -56,7 +56,4 @@ Voorbeelduitvoer:
 ```js
 foo:x:1000:1000:boo,,,:/home/boo:/bin/ksh
 ```
-We kunnen fgrep/grep gebruiken om alle regels van een bestand te vinden die een bepaald woord bevatten. Als u bijvoorbeeld alle regels van een bestand met de naam address.txt in de huidige map wilt weergeven die het woord "California" bevatten, voert u het volgende uit:
-```js
-fgrep California address.txt
-```
+
