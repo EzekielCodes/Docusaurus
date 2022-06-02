@@ -19,34 +19,34 @@ Er zijn inderdaad verschillende manieren om het flag te vinden. Kan ook met wire
 Het is mogelijk om de flag met wireshark te vinden. Indien uw met wireshark wilt proberen staast hieronder meer uitleg.
 <details>
   <summary>UITLEG</summary>
-  <p>Gisteren avond surfte een klant naar een russiche site.Waardoor zijn PC geinfecteerd isgeworden. Het ip idres van het site is 10.10.10.10(source IP). </p>
+  <p>Gisteren avond surfte een klant naar een russiche site.Waardoor zijn PC geinfecteerd is met een virus. Het ip idres van het site is 10.10.10.10(source IP). </p>
 </details>
 
-### Oplossing Met Wrieshark
+### Oplossing Met Wireshark
 > :warning: **Het oplossing staat hieronder. Probeer het zelf eerste te vinden**: 
 TIP: 
 <details>
     <summary>SPOILER</summary>
     <p>Het is ook mogelijk om virus te krijgen via een ping request :))</p>
-</details>
-<details>
+    <details>
     <summary>More Tips</summary>
     <p>Zet een filter die uw alleen icmp request toont en controleer de packet bytes van elke request die van 10.10.10.10 komt:))</p>
 </details>
+</details>
+
 
 <details>
-    <summary>Nog een andere oplossing Met wireshark</summary>
+    <summary>Een andere oplossing Met wireshark</summary>
     <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensotive unchecked. In search string zet "picoCTF" en Klik op find </p>
 </details>
 
 
 ### Oplossing Met Grep
-> :warning: **Het oplossing staat hieronder. Probeer het zelf eerst te cracking**: 
+> :warning: **Het oplossing staat hieronder. Probeer het zelf eerst te vinden**: 
 TIP: 
 <details>
   <summary>SPOILER</summary>
   <p>strings Network-dump.pcapng | grep "picoCTF"</p>
 </details>
 
-| WARNING: Spoiler! |
-| --- |
+
