@@ -15,8 +15,7 @@ csc-strings.exe_200213_232412.dmp is de procesgeheugendump (procdump.exe -mp) va
 
 ### Oplossing
 :::tip
-:warning: **Het oplossing staat hieronder. Probeer het zelf eerst te cracking**: 
-TIP: 
+:warning: **Het oplossing staat hieronder. Probeer het zelf eerst te cracking**:
 <details>
   <summary>Het extraheren van de vlag is eenvoudig:</summary> 
   <p>strings csc-strings.exe_200213_232412.dmp | grep -v ThisIsNot | grep CSC</p>
