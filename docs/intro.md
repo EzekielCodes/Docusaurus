@@ -20,8 +20,8 @@ Bedoeling van de workshop
 ---------------------------
 CTF Challenges worden in de Cyber Security tak van ICT vaak gebruikt (zei het in een CTF competitie of in een bedrijf) om de kennis van een persoon of team van personen te testen. Hierbij worden "vlaggen" verstopt in bestanden, programma's, websites, servers, etc. Deze vlaggen kan men vinden door bekende vulnerabilities te exploiteren of bij de simpelere challenges zelfs met gewone kennis over bestandstypes, Word, ... of wat googlen.
 
-Je kan ze vergelijken met puzzles, enkel is het aan jou om uit te vinden welke puzzel je voor je staan hebt en de juiste manier(en) te vinden om deze op te lossen. Meestal met enkel een categorie als richtingswijzer (of soms zelfs hints die zeer misleidend over kunnen komen).
-Voor wie zich afvraagt "hoe ziet een vlag er nu uit?" hier is een voorbeeld: CTF{Dit_is_een_vlag}
+Je kan ze vergelijken met puzzles, enkel is het aan jou om uit te vinden welke puzzel je voor je staan hebt en de juiste manier(en) te vinden om deze op te lossen. Meestal met enkel een categorie als richtingswijzer (of soms zelfs hints die zeer misleiden over kunnen komen).
+Voor wie zich afvraagt "hoe zit een vlag er nu uit?" hier is een voorbeeld: CTF{Dit_is_een_vlag}
 Het is een stukje tekst dus (dat verstopt zit).
 
 Wij zullen het hier natuurlijk simpel houden. 
