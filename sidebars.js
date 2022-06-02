@@ -38,7 +38,12 @@ module.exports = {
     // },
 
     {
-      'GREP': ['docs-intro','docs-grepOefening','docs-grepAdvanced','docs-grepForensics','docs-grepForensicsTweede'],
+      'GREP': ['docs-intro',
+      'Workshop/Learning about Grep/grepWorkshop',
+      'Workshop/Learning about Grep/docs-grepOefening',
+      'Workshop/Learning about Grep/docs-grepAdvanced',
+      'Workshop/Learning about Grep/docs-grepForensics',
+      'Workshop/Learning about Grep/docs-grepForensicsTweede'],
     },
     //docs\grepSecondPage
     //strings picoctf.pcapng | grep "picoCTF"
