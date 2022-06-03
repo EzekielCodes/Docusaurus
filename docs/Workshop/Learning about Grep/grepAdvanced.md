@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ---
 
 ## Grep OR Operation (|)
-Pipe-teken (|) in grep wordt gebruikt om aan te geven dat een van de twee hele subexpressies in een positie voorkomt. "subexpression1|subexpression2" komt overeen met subexpression1 of subexpression2.
+Het pipe-teken (|) in grep wordt gebruikt om aan te geven dat één van de twee hele subexpressies in een positie voorkomt. "subexpression1|subexpression2" komt overeen met subexpression1 of subexpression2.
 
 In het volgende voorbeeld worden drie verschillende soorten commentaarregels in een bestand verwijderd met OR in een grep-opdracht.
 

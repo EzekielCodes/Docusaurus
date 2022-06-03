@@ -1,6 +1,6 @@
 ---
 id: docs-grepForensicsTweede
-title: Tweede Opdracht
+title: Opdracht 2
 description: Oefening GREP
 sidebar_position: 5
 hide_table_of_contents: true

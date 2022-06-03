@@ -10,7 +10,7 @@ Inleiding
 Deze workshop zal jullie een introductie geven tot 'hacking' a.d.h.v. mini-CTF challenges.
 CTF staat voor 'Capture The Flag'.
 
-Dit workshop team bestaat uit de volgende personen:
+Deze workshop is georganiseerd door:
 - Alexander Scheerens
 - Arne Hebbrecht
 - Dylan Vanhassel
@@ -18,11 +18,11 @@ Dit workshop team bestaat uit de volgende personen:
 
 Bedoeling van de workshop
 ---------------------------
-CTF Challenges worden in de Cyber Security tak van ICT vaak gebruikt (zei het in een CTF competitie of in een bedrijf) om de kennis van een persoon of team van personen te testen. Hierbij worden "vlaggen" verstopt in bestanden, programma's, websites, servers, etc. Deze vlaggen kan men vinden door bekende vulnerabilities te exploiteren of bij de simpelere challenges zelfs met gewone kennis over bestandstypes, Word, ... of wat googlen.
+CTF Challenges worden in de Cyber Security wereld vaak gebruikt om de kennis van een persoon of team van personen te testen (zei het in een CTF competitie of in een bedrijf). Hierbij worden "vlaggen" verstopt in bestanden, programma's, websites, servers, etc. Deze vlaggen kan men vinden door bekende vulnerabilities te exploiteren of bij de meer eenvoudige challenges bestandstypes, Word, ... gaan onderzoeken. Google kan hier een goede bron van informatie zijn.
 
-Je kan ze vergelijken met puzzles, enkel is het aan jou om uit te vinden welke puzzel je voor je staan hebt en de juiste manier(en) te vinden om deze op te lossen. Meestal met enkel een categorie als richtingswijzer (of soms zelfs hints die zeer misleidend over kunnen komen).
+CTF challenges zijn te vergelijken met puzzles, enkel is het aan jou om uit te zoeken hoe deze puzzel in elkaar zit manier(en) te vinden om deze op te lossen. Meestal met enkel een categorie als richtingswijzer (of soms zelfs hints die zeer misleidend over kunnen komen).
 Voor wie zich afvraagt "hoe ziet een vlag er nu uit?" hier is een voorbeeld: CTF{Dit_is_een_vlag}
-Het is een stukje tekst dus (dat verstopt zit).
+Het is een stukje tekst dat verstopt zit.
 
 Wij zullen het hier natuurlijk simpel houden. 
 Jullie zullen kennis making met challenges met o.a. encoding/decoding en 'forensics' & de al dan niet nodige of handige tools hierbij.
@@ -30,7 +30,11 @@ Jullie zullen kennis making met challenges met o.a. encoding/decoding en 'forens
 Vereiste voorkennis
 -------------------
 Geen voorkennis nodig, wij leggen uit wat nodig is!
-Natuurlijk is voorkennis van encoding/decoding, CTF challenges, (kali) linux, etc wel een plus. Dan weet je wel al wat en kan je direct de challenges proberen op te lossen! 
+Natuurlijk is voorkennis van encoding/decoding, CTF challenges, (kali) linux, etc wel een plus. Deze voorkennis kan je helpen challenges te analyseren en ze sneller proberen op te lossen!
+
+:::note
+Probeer jezelf ook eens uit te dagen indien je hier meer ervaren in bent. Vraag gerust extra oefeningen of uitdagende oefeningen aan de aanwezig begeleiding.
+:::
 
 Tips voor je begint 
 ---------------------
