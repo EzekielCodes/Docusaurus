@@ -11,7 +11,7 @@ Het pipe-teken (|) in grep wordt gebruikt om aan te geven dat één van de twee 
 
 In het volgende voorbeeld worden drie verschillende soorten commentaarregels in een bestand verwijderd met OR in een grep-opdracht.
 
-```js
+```bash
 echo "Dit bestand toont het commentaarteken in verschillende programmeer-/scripttalen 
 ### Perl / shell-scripting 
 Als de regel begint met een enkel hash-symbool, 
@@ -25,18 +25,18 @@ Dubbele schuine strepen aan het begin van de regel voor commentaar op één rege
 
 Bekijk het bestand comments.txt
 
-```js
+```bash
 cat comments 
 ```
 
 Het bestand met de naam "opmerkingen" heeft perl, VB-script en C-programmeercommentaarregels. Nu zoekt het volgende grep-commando naar de regel die niet begint met # of enkele aanhalingstekens (') of dubbele slashes (//).
 
-```js
+```bash
  grep -v "^#\|^'\|^\/\/" comments
 ```
 
 ### OUTPUT
-```js
+```
 Dit bestand toont het commentaarteken in verschillende programmeer-/scripttalen 
 . Als de regel begint met een enkel hash-symbool, 
 dan is het een opmerking in Perl en shellscripting . 
@@ -48,7 +48,7 @@ Dubbele schuine strepen aan het begin van de regel voor commentaar op één rege
 ### Karakterklasse-expressie
 De opdracht Grep ondersteunt enkele speciale tekenklassen die bepaalde gemeenschappelijke bereiken aangeven. Weinigen van hen worden hier vermeld. Raadpleeg de man-pagina van grep om verschillende karakterklasse-expressies te kennen.
 
-```js
+```
 [:cijfer:] Alleen de cijfers 0 tot 9 
 [:alnum:] Elk alfanumeriek teken 0 tot 9 OF A tot Z of a tot z. 
 [:alpha:] Elk alfateken A tot Z of a tot z. 
@@ -57,7 +57,7 @@ De opdracht Grep ondersteunt enkele speciale tekenklassen die bepaalde gemeensch
 
 Deze worden altijd tussen vierkante haken gebruikt in de vorm [[:digit:]]. Laten we nu alle proces-ID's van het ntpd-daemonproces gebruiken met behulp van de juiste tekenklasse-expressie.
 
-```js
+```bash
 grep -e "ntpd\[[[:digit:]]\+\]" /var/log/messages.4 
 ```
 
@@ -70,7 +70,7 @@ Een reguliere expressie gevolgd door {m,n} geeft aan dat het voorgaande item min
 
 In het volgende voorbeeld wordt de regel afgedrukt als deze in het bereik van 0 tot 99999 ligt.
 
-```js
+```bash
 echo "12
 12345
 123456
@@ -79,13 +79,13 @@ echo "12
 ```
 
 
-```js
+```bash
 grep "^[0-9]\{1,5\}$" nummer.txt
 ```
 
 # OUTPUT
 
-```js
+```bash
 12 
 12345
 ```
@@ -96,25 +96,25 @@ Het bestand met de naam "nummer" heeft de lijst met nummers, het bovenstaande gr
 
 Een reguliere expressie gevolgd door {m} komt exact overeen met m exemplaren van de voorgaande expressie. De volgende grep-opdracht geeft alleen het nummer weer dat uit 5 cijfers bestaat.
 
-```js
+```bash
 grep "^[0-9]\{5\}$" nummer.txt 
 ```
 
 # OUTPUT
-```js
+```bash
 12345
 ```
 
 ### M of meer voorkomens ({m,})
 Een reguliere expressie gevolgd door {m,} komt overeen met m of meer exemplaren van de voorgaande expressie. De volgende grep-opdracht geeft het nummer weer met 5 of meer cijfers.
 
-```js
+```bash
 grep "[0-9]\{5,\}" nummer.txt 
 ```
 
 # OUTPUT
 
-```js
+```bash
 12345 
 123456 
 19816282

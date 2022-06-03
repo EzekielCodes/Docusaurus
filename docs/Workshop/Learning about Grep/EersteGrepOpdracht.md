@@ -1,6 +1,6 @@
 ---
 id: docs-grepForensics
-title: Opdracht 1
+title: Eerste Opdracht
 description: Oefening GREP
 sidebar_position: 4
 hide_table_of_contents: true
@@ -14,13 +14,13 @@ Er zijn inderdaad verschillende manieren om het flag te vinden.
 [Download Network dump file](./assets/network-dump.flag.pcap)
 
 ### Oplossing
-> :warning: **Het oplossing staat hieronder. Probeer het zelf eerst te cracking**: 
-TIP: 
+:::tip
+:warning: **Het oplossing staat hieronder. Probeer het zelf eerst te cracking**:
 <details>
   <summary>SPOILER</summary>
   <p>strings network-dump.flag.pcap | grep "p i c o" | tr -d " "</p>
 </details>
-
+:::
 
 
 
