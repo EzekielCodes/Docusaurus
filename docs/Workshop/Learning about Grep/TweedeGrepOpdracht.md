@@ -36,7 +36,7 @@ Het is mogelijk om de flag met wireshark te vinden. Indien uw met wireshark wilt
 
 <details>
     <summary>Een andere oplossing Met wireshark</summary>
-    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensotive unchecked. In search string zet "picoCTF" en Klik op find </p>
+    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensitive unchecked. In search string zet "picoCTF" en Klik op find </p>
 </details>
 
 :::

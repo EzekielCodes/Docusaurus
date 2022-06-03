@@ -96,7 +96,7 @@ Het bestand met de naam "nummer" heeft de lijst met nummers, het bovenstaande gr
 
 Een reguliere expressie gevolgd door {m} komt exact overeen met m exemplaren van de voorgaande expressie. De volgende grep-opdracht geeft alleen het nummer weer dat uit 5 cijfers bestaat.
 
-```js
+```bash
 grep "^[0-9]\{5\}$" nummer.txt 
 ```
 
@@ -114,7 +114,7 @@ grep "[0-9]\{5,\}" nummer.txt
 
 # OUTPUT
 
-```basg
+```bash
 12345 
 123456 
 19816282
