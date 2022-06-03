@@ -23,8 +23,8 @@ Het is mogelijk om de flag met wireshark te vinden. Indien uw met wireshark wilt
 </details>
 
 ### Oplossing Met Wireshark
-> :warning: **Het oplossing staat hieronder. Probeer het zelf eerste te vinden**: 
-TIP: 
+:::tip
+:warning: **Het oplossing staat hieronder. Probeer het zelf eerste te vinden**:
 <details>
     <summary>SPOILER</summary>
     <p>Het is ook mogelijk om virus te krijgen via een ping request :))</p>
@@ -34,19 +34,21 @@ TIP:
 </details>
 </details>
 
-
 <details>
     <summary>Een andere oplossing Met wireshark</summary>
-    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensotive unchecked. In search string zet "picoCTF" en Klik op find </p>
+    <p>Klik op Edit > FInd Pakket > Kies voor String en Packet bytes laat Case Sensitive unchecked. In search string zet "picoCTF" en Klik op find </p>
 </details>
+
+:::
+
 
 
 ### Oplossing Met Grep
-> :warning: **Het oplossing staat hieronder. Probeer het zelf eerst te vinden**: 
-TIP: 
+:::tip
+:warning: **Het oplossing staat hieronder. Probeer het zelf eerst te vinden**:
 <details>
   <summary>SPOILER</summary>
   <p>strings Network-dump.pcapng | grep "picoCTF"</p>
 </details>
-
+:::
 
