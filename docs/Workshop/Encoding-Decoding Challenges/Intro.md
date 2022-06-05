@@ -3,6 +3,7 @@ title: Intro
 description: Intoductie tot encoding en decoding
 sidebar_position: 0
 hide_table_of_contents: true
+
 ---
 
 ## Encoding/Decoding
@@ -22,13 +23,20 @@ Base64 bestaat uit 64 characters, namelijk:
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ 
 En daarbij wordt vaak "=" toegevoegd als "padding" (opvulling) zodat alles altijd mooi in gelijke "blokken" is opgedeeld in het geval dat de originele data niet in even grote blokken kan opgedeeld worden. 
 
-:::caution Opgelet!
 
-Encoderen/Decoderen is niet hetzelfde als encryptie/decryptie. 
-Bij encryptie is het de bedoeling om data te verbergen in een niet leesbare vorm tenzij je de juiste sleutel hebt om deze ongedaan te maken. Encoderen wil net data wel leesbaar is voor alles die datzelfde systeem gebruikt.
-Een zeer bekende (maar ook een slecht voorbeeld van) encryptie is ROT13 ook wel bekend als het Caesar-cijfer. Waarbij men bij data (tekst) ieder character omwisselt met die 13 plaatsen verder.
-Aangezien ons alfabet maar bestaat uit 26 characters betekend dit dat als we deze opnieuw uitvoeren we terug de originele data krijgen.
 TODO: Uitleg hier (mention een paar mogelijks bekende encoderingen, base64, maak duidelijk encoderen vs encryptie, geef ook voorbeeld encryptie)
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+
+:::caution Opgelet
+
+<Tabs>
+  <TabItem value="Opgelet" label="Encoding vs Encryption">Encoderen/Decoderen is niet hetzelfde als encryptie/decryptie. Bij encryptie is het de bedoeling om data te verbergen in een niet leesbare vorm tenzij je de juiste sleutel hebt om deze ongedaan te maken. Encoderen wil net data wel leesbaar is voor alles die datzelfde systeem gebruikt.</TabItem>
+  <TabItem value="Encryption" label="Encryption">Een zeer bekende (maar ook een slecht voorbeeld van) encryptie is ROT13 ook wel bekend als het [Caesar-cijfer](https://nl.wikipedia.org/wiki/Caesarcijfer). Waarbij men bij data (tekst) ieder character omwisselt met die 13 plaatsen verder.
+Maar aangezien ons alfabet maar bestaat uit 26 characters betekend dit dat als we deze opnieuw uitvoeren we terug de originele data krijgen.</TabItem>
+</Tabs>
 
 :::
 
