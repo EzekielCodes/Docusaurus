@@ -7,7 +7,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   plugins: [
-    require.resolve('@cmfcmf/docusaurus-search-local')
+    require.resolve('@cmfcmf/docusaurus-search-local'),
+    ('@docusaurus/theme-live-codeblock'),
+    
   ],
   title: 'Infrastructure as code',
   tagline: 'workshop',
@@ -52,7 +54,7 @@ const config = {
             type: 'doc',
             docId: 'docs-intro',
             position: 'left',
-            label: 'Opgaves',
+            label: 'Mini-CTF Workshop',
           },
           
         ],
@@ -89,9 +91,10 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['markdown'],
+        additionalLanguages: ['markdown', 'java', 'csharp']
+
       },
     }),
 };
 
-module.exports=config
+module.exports= config
