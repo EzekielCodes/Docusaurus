@@ -1,5 +1,5 @@
 ---
-title: Warmup
+title: Warm-up
 description: Een paar simpele oefeningen
 sidebar_position: 1
 hide_table_of_contents: true

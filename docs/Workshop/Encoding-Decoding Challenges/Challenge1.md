@@ -19,7 +19,7 @@ Hier is onze eerste challenge dan!
 <details>
     <summary>Hint:</summary>
     <div>
-        <div>Het is een bestandstype dat werd opgeslaan als een .txt bestand (zie de warmup!)</div>
+        <div>Het is een bestandstype dat werd opgeslaan als een .txt bestand (zie de warm-up!)</div>
         <br/>
         <details>
             <summary>Antwoord:</summary>

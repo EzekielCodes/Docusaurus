@@ -20,7 +20,7 @@ Hier is onze tweede challenge dan!
 <details>
     <summary>Hint:</summary>
     <div>
-        <div>Alles van de warmup zit hierin samen.</div>
+        <div>Alles van de warm-up zit hierin samen.</div>
         <br/>
         <details>
             <summary>Antwoord:</summary>
