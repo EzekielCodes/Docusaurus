@@ -29,7 +29,7 @@ Hier is onze eerste challenge dan!
                 <details>
                 <summary>De vlag:</summary>
                 <div>
-                    <p>Eens je de base64 erin decodeerd zoals in de warmup vind je de vlag:</p>
+                    <p>Eens je de base64 erin decodeerd zoals in de warm-up vind je de vlag:</p>
                     <p>ctf&#123;proficiat_je_hebt_de_eerste_challenge_vlag_gevonden&#125;</p>
                 </div>
                 </details>
