@@ -11,8 +11,6 @@ Deze workshop zal jullie een introductie geven tot 'hacking' a.d.h.v. mini-CTF c
 CTF staat voor 'Capture The Flag'.
 
 Deze workshop is georganiseerd door:
-- Alexander Scheerens
-- Arne Hebbrecht
 - Dylan Vanhassel
 - Toluwani Akindele
 
