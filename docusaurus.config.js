@@ -66,8 +66,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Workshop',
+                label: 'Mini CTF Workshop',
                 to: '/',
+              },
+              {
+                label: 'Encoding Challenges',
+                to: '/Workshop/Encoding-Decoding%20Challenges/Intro',
+              },
+              {
+                label: 'Learning about Grep',
+                to: 'Workshop/Learning%20about%20Grep/grepWorkshop',
               },
             ],
           },
@@ -76,7 +84,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'website',
+                label: 'Odisee',
                 to: 'https://www.odisee.be',
               },
               {

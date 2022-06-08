@@ -3,19 +3,26 @@ title: Challenge 2
 description: De tweede challenge
 sidebar_position: 3
 hide_table_of_contents: true
+tags:
+  - challenge2
 ---
 
-## De tweede challenge
 :::caution Als je het niet vind:
 
 Geen paniek! Click gerust op "Hint:" om je verder te helpen.
 Is het nog niet genoeg? Dan doorlopen we het stap voor stap!
 
 :::
-Hier is onze tweede challenge dan!
-(De vlag die je moet zoek is gelijkaardig aan: ``ctf{voorbeeld_flag}``)
 
-[Download hier de tweede challlenge](./assets/challenge2.txt)
+## Challenge #2
+
+Ik kreeg onlangs [dit bestand doorgestuurd](./assets/challenge2.txt) met de vraag "Is dit een ctf challenge?".<br/>Ik weet niet of dit een ctf challenge is, maar als het een is dan zit er zeker een vlag in. En als er een vlag in zit, dan ben ik zeker dat jij deze kan vinden!
+
+:::note
+
+De vlag die je moet zoeken is gelijkaardig aan: ``ctf{voorbeeld_flag}``
+
+:::
 
 <details>
     <summary>Hint:</summary>
