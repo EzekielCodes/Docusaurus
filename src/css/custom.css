@@ -31,6 +31,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   text-align: center;
 }
 
+.footer__item {
+  text-align: center;
+}
+
 .footer__title {
   text-align: center;
 }

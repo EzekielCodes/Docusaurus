@@ -5,7 +5,7 @@ sidebar_position: 0
 slug: /
 ---
 
-Inleiding
+About
 ==============
 Deze workshop zal jullie een introductie geven tot 'hacking' a.d.h.v. mini-CTF challenges & een handig linux-command en tool of 2.
 CTF staat voor 'Capture The Flag'.
@@ -31,7 +31,7 @@ Geen voorkennis nodig, wij leggen uit wat nodig is!
 Natuurlijk is voorkennis van encoding/decoding, CTF challenges, (kali) linux, etc wel een plus. Deze voorkennis kan je helpen challenges te analyseren en ze sneller proberen op te lossen!
 
 :::note
-Probeer jezelf ook eens uit te dagen indien je hier meer ervaren in bent. Vraag gerust extra oefeningen of uitdagende oefeningen aan de aanwezig begeleiding.
+Probeer jezelf ook eens uit te dagen indien je hier meer ervaren in bent. Vraag gerust extra oefeningen of uitdagende oefeningen aan de (indien aanwezig) begeleiding.
 :::
 
 Tips voor je begint 

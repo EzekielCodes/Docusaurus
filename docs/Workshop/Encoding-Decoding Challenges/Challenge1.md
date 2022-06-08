@@ -3,19 +3,26 @@ title: Challenge 1
 description: De eerste challenge
 sidebar_position: 2
 hide_table_of_contents: true
+tags:
+  - challenge1
 ---
-## De eerste challenge
 :::caution Als je het niet vind:
 
 Geen paniek! Click gerust op "Hint:" om je verder te helpen.
-Is het nog niet genoeg? Dan doorlopen we het stap voor stap!
+Is het nog niet genoeg? Dan doorlopen we het stap voor stap in de oplossing!
 
 :::
-Hier is onze eerste challenge dan!
-(De vlag die je moet zoek is gelijkaardig aan: ``ctf{voorbeeld_flag}``)
 
-[Download hier de eerste challlenge](./assets/challenge1.txt)
+## Challenge #1
+Ik had net iets neergeschreven in notepad toen ik onverwachts even weg moest. Toen ik echter terugkwam stond [dit plots in mijn notepad](./assets/challenge1.txt) in plaats van de originele tekst. Vast een grap van mijn medestudent... Les geleerd dus, vergrendel altijd je pc in plaats van die open te laten staan.
 
+Maar mijn originele tekst... Kan jij ze terug vinden?
+
+:::note
+
+De vlag die je moet zoeken is gelijkaardig aan: ``ctf{voorbeeld_flag}``
+
+:::
 <details>
     <summary>Hint:</summary>
     <div>

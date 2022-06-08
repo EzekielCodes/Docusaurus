@@ -4,18 +4,19 @@ description: Een paar simpele oefeningen
 sidebar_position: 1
 hide_table_of_contents: true
 tags:
-  - Warmup
+  - Warm-up
 ---
 ## Meer dan enkel base64
-Zoals de titel zegt is er natuurlijk meer dan alleen base64. Hier zul je een paar andere vormen van encoderingen vinden & wordt je verwacht de naam van de codering te vinden & de originele tekst/vlag. (hint: je zal dus gebruik moeten maken van het internet!)
+Zoals de titel zegt is er natuurlijk meer dan alleen base64. Hier zul je een paar andere encoderingen vinden & word je verwacht de naam van de codering te vinden & de originele tekst/vlag. (hint: je zal dus gebruik moeten maken van het internet!)
 
-## Oefeningen
 :::caution Als je het niet vind:
 
 Geen paniek! Click gerust op "Antwoord:" om te weten te komen welke soort encodering het was.
 Eens je die weet zou het gemakkelijk moeten zijn om de originele tekst/vlag te vinden met de juiste site(s)! Maar indien je het dan nog niet vind, kun je de vlag vinden onder "de vlag:".
 
 :::
+## Oefeningen
+
 Hier is de eerste dan (het gedecodeerde antwoord is in het formaat van de vlaggen van een CTF, namelijk ``ctf{voorbeeld_flag}``)
 ```
 63 74 66 7b 68 33 74 5f 77 34 73 5f 68 33 78 7d
@@ -108,11 +109,9 @@ NzggMTA2IDc3IDEwMyA3OCAxMjIgODEgMTAzIDc4IDEwNiA4OSAxMDMgNzggNTAgNzMgMTAzIDc3IDEy
 Natuurlijk  zou het ietsje te gemakkelijk zijn moest het enkel geëncodeerde tekst zijn in onze challenges. Vandaar dus dat er wat meer te pas komt, namelijk bestandstypes.
 
 Als je ooit al eens een bestandstype zoals een afbeelding hebt geprobeerd te openen als een tekstbestand zal je waarschijnlijk gemerkt hebben dat deze niet al te leesbaar is voor ons.
-**Maar* deze hebben altijd een "header". Een stukje tekst helemaal aan de start (bovenaan) dat zegt welk type bestand dit is.
+**Maar** deze hebben altijd een "header". Een stukje tekst helemaal aan de start (bovenaan) dat zegt welk type bestand dit is.
 
 Neem bijvoorbeeld de volgende afbeelding:
-+ 
-[Download hem hier:](./assets/Example_image.png)
 
 import DocusaurusImageUrl from '@site/static/img/Example_image.png';
 
@@ -129,8 +128,14 @@ H².ì¡Ï¹ïÿ.ÿéÞCb[.Ë<.AB...Ïßît.%.Z¬ªb*..r.£.å(G9ÊQ.r.£|.Ò§�
 Ë
 <enzoverder>
 ```
+Indien je het zelf ook eens wilt zien bij deze afbeelding, [download hem hier.](./assets/Example_image.png)<br/>
+Merk op, de header ``.PNG`` verteld dat dit eigenlijk een .png afbeelding is. 
 
-Merk op de header ".PNG" die verteld dat dit eigenlijk een .png afbeelding is. 
+## Handige tool
+
+Een handige tool bij deze oefeningen (en de challenges) is [Cyberchef](https://gchq.github.io/CyberChef/).<br/>Cyberchef laat je tekst maar ook bestanden bekijken & aanpassen. Met o.a. operaties zoals ``From base64``, ``To binary`` & ``Detect File Type`` die zeer handig zijn voor onze oefeningen en challenges.
+
+Er is zelfs een ``Magic`` operation waarbij Cyberchef zelf probeert uit te zoeken wat er met het bestand kan gebeurd zijn!<br/>Probeer deze maar even uit op de laatse oefening op encoderen/decoderen! Mogelijks moet je wel de "Depth" aanpassen van de Magic operatie (van 3 naar 4). Depth (letterlijk: diepte) is hier het max aantal stappen bij iedere poging die Cyberchef probeert. Kijk daarna maar eens naar de mogelijke antwoord snippets die Cyberchef toont, je zal merken dat een paar van hen de vlag tonen! (En de stappen die Cyberchef heeft moeten doornemen om deze te bekomen)
 
 ## Einde warmup
 Dit zou voldoende moeten zijn om te starten met onze challenges. Op naar de challenges dus!

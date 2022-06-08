@@ -20,7 +20,7 @@ En daarbij wordt vaak "``=``" toegevoegd als "padding" (opvulling) zodat alles a
 
 Deze wordt onder andere gebruikt in e-mails om bijlagen te versturen.
 
-Stel dat we een email hebben met een afbeelding in de bijlage. Het versturen (transport) van een email is gebaseerd op het versturen van textuele data, wat problemen zou opleveren dus als we data willen versturen die niet textueel is, zoals een afbeelding. (Met tot gevolg dat de afbeelding gedeeltelijk of niet juist toekomt. De afbeelding is dan 'corrupted')
+Stel dat we een email hebben met een afbeelding in de bijlage. Het versturen (transport) van een email is gebaseerd op het verzenden van textuele data, wat dus problemen zou opleveren als we data willen versturen die niet textueel is, zoals een afbeelding. (Met tot gevolg dat de afbeelding gedeeltelijk of niet juist toekomt. De afbeelding is dan 'corrupted')
 Hier wordt dan base64 gebruikt om de afbeelding als textuele data te representeren vooraleer die verstuurd word met de email.
 
 Encoderen is dus het representeren van data in een andere data vorm en decoderen is via dezelfde manier dat deze geëncodeerd werd ze terug om te vormen naar de originele data vorm.
