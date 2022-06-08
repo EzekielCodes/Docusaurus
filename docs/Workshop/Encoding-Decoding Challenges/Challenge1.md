@@ -9,7 +9,7 @@ tags:
 :::caution Als je het niet vind:
 
 Geen paniek! Click gerust op "Hint:" om je verder te helpen.
-Is het nog niet genoeg? Dan doorlopen we het stap voor stap in de oplossing!
+Lukt het nog steeds niet? Dan doorlopen we het stap voor stap!
 
 :::
 
