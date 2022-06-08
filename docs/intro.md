@@ -7,7 +7,7 @@ slug: /
 
 Inleiding
 ==============
-Deze workshop zal jullie een introductie geven tot 'hacking' a.d.h.v. mini-CTF challenges.
+Deze workshop zal jullie een introductie geven tot 'hacking' a.d.h.v. mini-CTF challenges & een handig linux-command en tool of 2.
 CTF staat voor 'Capture The Flag'.
 
 Deze workshop is georganiseerd door:
