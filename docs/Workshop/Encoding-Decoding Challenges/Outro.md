@@ -28,6 +28,13 @@ Deze vlag is niet zo gemakkelijk gevonden...
 
 :::
 
+<details>
+    <summary>Hint:</summary>
+    <div>
+        <div><p><b>Inspecteer</b> de hele website ;)</p></div>
+  </div>
+</details>
+
 <HiddenFlagCheck flagNumber="1" />
 
 ## Nog meer?
