@@ -17,10 +17,15 @@ Eens je die weet zou het gemakkelijk moeten zijn om de originele tekst/vlag te v
 :::
 ## Oefeningen
 
+import { TrialFlags } from '@site/src/components/TrialFlagCheck';
+
 Hier is de eerste dan (het gedecodeerde antwoord is in het formaat van de vlaggen van een CTF, namelijk ``ctf{voorbeeld_flag}``)
 ```
 63 74 66 7b 68 33 74 5f 77 34 73 5f 68 33 78 7d
 ```
+
+<TrialFlags flagNumber="0" />
+
 <details>
   <summary>Antwoord:</summary>
   <div>
@@ -44,6 +49,9 @@ De eerste challenge heeft namelijk ook letters erin zitten.
 ```
 99 116 102 123 100 105 116 95 105 115 95 100 101 99 105 109 97 108 125
 ```
+
+<TrialFlags flagNumber="1" />
+
 <details>
   <summary>Antwoord:</summary>
   <div>
@@ -64,6 +72,9 @@ De derde oefening (vlag is in hetzelfde formaat):
 ```
 3B83:0fC./0JXb*1,C%-0JO\)0f1"52'=V/1*A;*2'=V-2BX_/0H`A5+>GQ1+>GQ)+>GQ)+>GT-+>GQ(+>GQ)+>GT-+>GQ)+?;;%3B/-A2]sh02'=V-0d&J6+>GQ)+>GT)+?;G)0ekC*0eb:(0ebI-0ek@)0ebC+0ekO.0etT
 ```
+
+<TrialFlags flagNumber="2" />
+
 <details>
   <summary>Antwoord:</summary>
   <div>
@@ -84,6 +95,9 @@ En een laatste oefening op het herkennen van encodings voor wie een wat moeilijk
 ```
 NzggMTA2IDc3IDEwMyA3OCAxMjIgODEgMTAzIDc4IDEwNiA4OSAxMDMgNzggNTAgNzMgMTAzIDc3IDEyMiA3NyAxMDMgNzggMTA5IDg1IDEwMyA3OCAxMDYgNzcgMTAzIDc3IDEyMiA2NSAxMDMgNzggMTA2IDgxIDEwMyA3NyAxMjIgNzcgMTAzIDc4IDEwNiA4MSAxMDMgNzggODcgODkgMTAzIDc4IDEwNiA4MSAxMDMgNzcgMTIyIDc3IDEwMyA3OCA4NyA4OSAxMDMgNzcgMTIyIDc3IDEwMyA3OCAxMDkgODUgMTAzIDc4IDEwNiA3NyAxMDMgNzcgMTIyIDY1IDEwMyA3OCAxMDYgODEgMTAzIDc3IDEyMiA2OSAxMDMgNzggMTA5IDg1IDEwMyA3OCAxMDYgOTkgMTAzIDc4IDUwIDgxIDYx
 ```
+
+<TrialFlags flagNumber="3" />
+
 <details>
     <summary>Hint:</summary>
     <div>
