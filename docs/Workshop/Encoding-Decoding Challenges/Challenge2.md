@@ -27,7 +27,6 @@ De vlag die je moet zoeken is gelijkaardig aan: ``ctf{voorbeeld_flag}``
 import { FlagInput } from '@site/src/components/FlagCheck';
 
 <FlagInput flagNumber="1" />
-<br/>
 
 <details>
     <summary>Hint:</summary>
