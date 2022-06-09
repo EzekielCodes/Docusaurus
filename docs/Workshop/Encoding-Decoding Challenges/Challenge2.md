@@ -12,6 +12,8 @@ tags:
 Geen paniek! Click gerust op "Hint:" om je verder te helpen.
 Lukt het nog steeds niet? Dan doorlopen we het stap voor stap!
 
+Vergeet ook niet dat je steeds het internet kan gebruiken om deze op te lossen!
+
 :::
 
 ## Challenge #2
