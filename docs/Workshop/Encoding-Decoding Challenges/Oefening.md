@@ -70,7 +70,7 @@ De eerste challenge heeft namelijk ook letters erin zitten.
 
 De derde oefening (vlag is in hetzelfde formaat):
 ```
-3B83:0fC./0JXb*1,C%-0JO\)0f1"52'=V/1*A;*2'=V-2BX_/0H`A5+>GQ1+>GQ)+>GQ)+>GT-+>GQ(+>GQ)+>GT-+>GQ)+?;;%3B/-A2]sh02'=V-0d&J6+>GQ)+>GT)+?;G)0ekC*0eb:(0ebI-0ek@)0ebC+0ekO.0etT
+@ru=0ATD.(BkhNmD.R:!A7]dm?XdGbARB"d@rGmlDJ+$=
 ```
 
 <TrialFlags flagNumber="2" />
