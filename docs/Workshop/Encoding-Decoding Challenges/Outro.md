@@ -9,7 +9,7 @@ hide_table_of_contents: true
 ### Extra Challenge
 
 Moest je meer challenges willen of was dit niet uitdagend genoeg voor je? Geen zorgen!
-Als je Challenge nog herinnert dan vond je bij de vlag wel een heel raar stuk text, blijkbaar afkomstig van Shakespear's Julius Caesar...
+Als je je nog [Challenge 1](Challenge1.md) herinnert dan vond je bij de vlag wel een heel raar stukje text, blijkbaar afkomstig van Shakespear's Julius Caesar...
 Er is duidelijk iets vreemds mee gebeurd...<br/>
 Weet jij wat er met de text gebeurd is? Deze keer zoeken we niet een vlag, maar wel *wat* de text zo vreemd gemaakt heeft!
 
