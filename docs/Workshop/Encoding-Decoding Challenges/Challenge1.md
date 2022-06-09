@@ -23,13 +23,18 @@ Maar mijn originele tekst... Kan jij ze terug vinden?
 De vlag die je moet zoeken is gelijkaardig aan: ``ctf{voorbeeld_flag}``
 
 :::
+
+import { FlagInput } from '@site/src/components/FlagCheck';
+
+<FlagInput flagNumber="0" />
+
 <details>
     <summary>Hint:</summary>
     <div>
         <div>Het is een bestandstype dat werd opgeslaan als een .txt bestand (zie de warm-up!)</div>
         <br/>
         <details>
-            <summary>Antwoord:</summary>
+            <summary>Oplossing:</summary>
             <div>
                 <div>Het bestandstype is eigenlijk een .zip bestand. Hierin vind je een interessante .txt met base64 erin.</div>
                 <br/>
@@ -37,7 +42,7 @@ De vlag die je moet zoeken is gelijkaardig aan: ``ctf{voorbeeld_flag}``
                 <summary>De vlag:</summary>
                 <div>
                     <p>Eens je de base64 erin decodeerd zoals in de warm-up vind je de vlag:</p>
-                    <p>ctf&#123;proficiat_je_hebt_de_eerste_challenge_vlag_gevonden&#125;</p>
+                    <p>Geef de gevonden vlag in hierboven en zie als ze juist is!</p>
                 </div>
                 </details>
             </div>

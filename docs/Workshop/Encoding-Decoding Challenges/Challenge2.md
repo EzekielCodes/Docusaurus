@@ -24,13 +24,18 @@ De vlag die je moet zoeken is gelijkaardig aan: ``ctf{voorbeeld_flag}``
 
 :::
 
+import { FlagInput } from '@site/src/components/FlagCheck';
+
+<FlagInput flagNumber="1" />
+<br/>
+
 <details>
     <summary>Hint:</summary>
     <div>
         <div>Alles van de warm-up zit hierin samen.</div>
         <br/>
         <details>
-            <summary>Antwoord:</summary>
+            <summary>Oplossing:</summary>
             <div>
                 <div>Het is een .gif file opgeslaan als .txt en daarna geëncodeerd naar hex en dan naar base64!</div>
                 <br/>
@@ -38,7 +43,7 @@ De vlag die je moet zoeken is gelijkaardig aan: ``ctf{voorbeeld_flag}``
                 <summary>De vlag:</summary>
                 <div>
                     <p>Eens je deze decodeert van base64 en dan van hex & daarna opslaat als .gif vind je de vlag:</p>
-                    <p>ctf&#123;is_dit_een_ctf_vlag?&#125;</p>
+                    <p>Geef de gevonden vlag in hierboven en zie als ze juist is!</p>
                 </div>
                 </details>
             </div>
