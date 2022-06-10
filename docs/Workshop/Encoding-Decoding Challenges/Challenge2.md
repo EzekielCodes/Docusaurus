@@ -18,10 +18,11 @@ Vergeet ook niet dat je steeds het internet kan gebruiken om deze op te lossen!
 
 ## Challenge #2
 
-Ik kreeg onlangs [dit bestand doorgestuurd](./assets/challenge2.txt) met de vraag "Is dit een ctf challenge?".<br/>Ik weet niet of dit een ctf challenge is, maar als het een is dan zit er zeker een vlag in. En als er een vlag in zit, dan ben ik zeker dat jij deze kan vinden!
+Ik kreeg onlangs [dit bestand doorgestuurd](./assets/challenge2.zip) met de vraag "Is dit een ctf challenge?".<br/>Ik weet niet of dit een ctf challenge is, maar als het een is dan zit er zeker een vlag in. En als er een vlag in zit, dan ben ik zeker dat jij deze kan vinden!
 
 :::note
 
+Je zal de challenge2.txt eerst uit de zip file moeten halen!
 De vlag die je moet zoeken is gelijkaardig aan: ``ctf{voorbeeld_flag}``
 
 :::
